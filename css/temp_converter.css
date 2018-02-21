@@ -1,0 +1,47 @@
+/* A temperature converter from a free tutorial by whatsdev.com with minor
+   modifications. See - https://www.whatsdev.com/
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+div {
+  height: 33.33vh;
+}
+
+/*.fahrenheit {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}*/
+
+input[type=number] {
+  width: 100vw;
+  height: 100%;
+  outline: none;
+  font-family: Asap, sans-serif;
+  background-color: #000;
+  color: #ddd;
+  font-size: 5em;
+  text-align: center;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+::placeholder {
+  color: #333;
+}
+
+/*hr {
+  background-color: yellow;
+}*/
